@@ -10,6 +10,7 @@ Vue.config.devtools = true;
 const app = new Vue({
     el : `#root`,
     data:{
-        title: `Oggi ti mando un link per aprezzare meglio la cultura di Brescia`
+        title: `Oggi ti mando un link per aprezzare meglio la cultura di Brescia`,
+        images:[`https://www.bresciaatavola.it/wp-content/uploads/bresciaatavola.it/2018/01/polenta-taragna-concia.jpg`]
     }
 });
